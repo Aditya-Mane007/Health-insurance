@@ -5,8 +5,9 @@ import HeroImage from "../../public/assets/Health-insurance.jpg"
 import Individual from "../../public/assets/individual-benefits-health-check-up.svg"
 import Family from "../../public/assets/covers-extended-family.svg"
 import Data from "../../components/data.json"
-import { useState } from "react"
+
 import Link from "next/link"
+import { useState } from "react"
 
 //bg-[#08becd]
 const page = () => {
