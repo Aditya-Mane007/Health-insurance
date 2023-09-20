@@ -10,13 +10,13 @@ import Link from "next/link"
 
 //bg-[#08becd]
 function page() {
-  const [lang,setLang] = useState("English")
+  const [lang, setLang] = useState("English")
   const data = Data
 
   return (
     <div className="w-full min-h-screen">
       <header className="w-auto">
-        <Navbar value={{ lang,setLang }} />
+        <Navbar value={{ lang, setLang }} />
       </header>
       <Image src={HeroImage} alt="Health Insurance" className="h-80" />
       <main className="w-auto">
@@ -26,29 +26,29 @@ function page() {
             {lang == "English"
               ? data[0].Question?.English
               : "" || lang == "Marathi"
-                ? data[0].Question?.Marathi
-                : "" || lang == "Hindi"
-                  ? data[0].Question?.Hindi
-                  : ""}
+              ? data[0].Question?.Marathi
+              : "" || lang == "Hindi"
+              ? data[0].Question?.Hindi
+              : ""}
           </div>
           <div className="sub-title my-2 text-lg">
             <p>
               {lang == "English"
                 ? data[0].Answer?.English.part1
                 : "" || lang == "Marathi"
-                  ? data[0].Answer?.Marathi.part1
-                  : "" || lang == "Hindi"
-                    ? data[0].Answer?.Hindi.part1
-                    : ""}
+                ? data[0].Answer?.Marathi.part1
+                : "" || lang == "Hindi"
+                ? data[0].Answer?.Hindi.part1
+                : ""}
             </p>
             <p>
               {lang == "English"
                 ? data[0].Answer?.English.part2
                 : "" || lang == "Marathi"
-                  ? data[0].Answer?.Marathi.part2
-                  : "" || lang == "Hindi"
-                    ? data[0].Answer?.Hindi.part2
-                    : ""}
+                ? data[0].Answer?.Marathi.part2
+                : "" || lang == "Hindi"
+                ? data[0].Answer?.Hindi.part2
+                : ""}
             </p>
           </div>
         </div>
@@ -60,44 +60,44 @@ function page() {
             {lang == "English"
               ? data[1].title?.English
               : "" || lang == "Marathi"
-                ? data[1].title?.Marathi
-                : "" || lang == "Hindi"
-                  ? data[1].title?.Hindi
-                  : ""}
+              ? data[1].title?.Marathi
+              : "" || lang == "Hindi"
+              ? data[1].title?.Hindi
+              : ""}
           </div>
           <div className="sub-text1 px-2 text-white text-md my-5">
             {lang == "English"
               ? data[1]?.subtitle?.English
               : "" || lang == "Marathi"
-                ? data[1]?.subtitle?.Marathi
-                : "" || lang == "Hindi"
-                  ? data[1]?.subtitle?.Hindi
-                  : ""}
+              ? data[1]?.subtitle?.Marathi
+              : "" || lang == "Hindi"
+              ? data[1]?.subtitle?.Hindi
+              : ""}
           </div>
           <div className="p-3">
             <div className="title text-white">
               {lang == "English"
                 ? "Some key features of Individual Health Insurance"
                 : "" || lang == "Marathi"
-                  ? "काही प्रमुख वैशिष्ट्ये इंडिव्हिज्युअल हेल्थ इन्श्युरन्स"
-                  : "" || lang == "Hindi"
-                    ? "इसकी कुछ प्रमुख विशेषताएं जानें इंडिविजुअल हेल्थ इंश्योरेंस"
-                    : ""}
+                ? "काही प्रमुख वैशिष्ट्ये इंडिव्हिज्युअल हेल्थ इन्श्युरन्स"
+                : "" || lang == "Hindi"
+                ? "इसकी कुछ प्रमुख विशेषताएं जानें इंडिविजुअल हेल्थ इंश्योरेंस"
+                : ""}
             </div>
             <ul className="list-disc text-white mx-3 w-full">
               {lang == "English"
-                ? data[1].features?.English.map((item,index) => (
-                  <li key={index}>{item}</li>
-                ))
-                : "" || lang == "Marathi"
-                  ? data[1].features?.Marathi.map((item,index) => (
+                ? data[1].features?.English.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))
-                  : "" || lang == "Hindi"
-                    ? data[1].features?.Hindi.map((item,index) => (
-                      <li key={index}>{item}</li>
-                    ))
-                    : ""}
+                : "" || lang == "Marathi"
+                ? data[1].features?.Marathi.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))
+                : "" || lang == "Hindi"
+                ? data[1].features?.Hindi.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))
+                : ""}
             </ul>
           </div>
         </div>
@@ -109,45 +109,45 @@ function page() {
             {lang == "English"
               ? data[2].title?.English
               : "" || lang == "Marathi"
-                ? data[2].title?.Marathi
-                : "" || lang == "Hindi"
-                  ? data[2].title?.Hindi
-                  : ""}
+              ? data[2].title?.Marathi
+              : "" || lang == "Hindi"
+              ? data[2].title?.Hindi
+              : ""}
           </div>
           <div className="sub-text1 px-2 text-white text-md my-5">
             {lang == "English"
               ? data[2]?.subtitle?.English
               : "" || lang == "Marathi"
-                ? data[2]?.subtitle?.Marathi
-                : "" || lang == "Hindi"
-                  ? data[2]?.subtitle?.Hindi
-                  : ""}
+              ? data[2]?.subtitle?.Marathi
+              : "" || lang == "Hindi"
+              ? data[2]?.subtitle?.Hindi
+              : ""}
           </div>
           <div className="p-3">
             <div className="title text-white">
               {lang == "English"
                 ? "Some key features of Individual Health Insurance"
                 : "" || lang == "Marathi"
-                  ? "काही प्रमुख वैशिष्ट्ये इंडिव्हिज्युअल हेल्थ इन्श्युरन्स"
-                  : "" || lang == "Hindi"
-                    ? "इसकी कुछ प्रमुख विशेषताएं जानें इंडिविजुअल हेल्थ इंश्योरेंस"
-                    : ""}
+                ? "काही प्रमुख वैशिष्ट्ये इंडिव्हिज्युअल हेल्थ इन्श्युरन्स"
+                : "" || lang == "Hindi"
+                ? "इसकी कुछ प्रमुख विशेषताएं जानें इंडिविजुअल हेल्थ इंश्योरेंस"
+                : ""}
             </div>
             <ul className="list-disc text-white mx-3 w-full">
               <ul className="list-disc text-white mx-3 w-full">
                 {lang == "English"
-                  ? data[2].features?.English.map((item,index) => (
-                    <li key={index}>{item}</li>
-                  ))
-                  : "" || lang == "Marathi"
-                    ? data[2].features?.Marathi.map((item,index) => (
+                  ? data[2].features?.English.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))
-                    : "" || lang == "Hindi"
-                      ? data[2].features?.Hindi.map((item,index) => (
-                        <li key={index}>{item}</li>
-                      ))
-                      : ""}
+                  : "" || lang == "Marathi"
+                  ? data[2].features?.Marathi.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))
+                  : "" || lang == "Hindi"
+                  ? data[2].features?.Hindi.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))
+                  : ""}
               </ul>
             </ul>
           </div>
@@ -170,37 +170,37 @@ function page() {
                       {lang === "English"
                         ? item?.name?.English
                         : " " || lang === "Marathi"
-                          ? item?.name?.Marathi
-                          : " " || lang === "Hindi"
-                            ? item?.name?.Hindi
-                            : " "}
+                        ? item?.name?.Marathi
+                        : " " || lang === "Hindi"
+                        ? item?.name?.Hindi
+                        : " "}
                     </td>
                     <td>
                       {lang === "English"
                         ? item?.Eligibility?.English
                         : " " || lang === "Marathi"
-                          ? item?.Eligibility?.Marathi
-                          : " " || lang === "Hindi"
-                            ? item?.Eligibility?.Hindi
-                            : " "}
+                        ? item?.Eligibility?.Marathi
+                        : " " || lang === "Hindi"
+                        ? item?.Eligibility?.Hindi
+                        : " "}
                     </td>
                     <td>
                       {lang === "English"
                         ? item?.SumInsured?.English
                         : " " || lang === "Marathi"
-                          ? item?.SumInsured?.Marathi
-                          : " " || lang === "Hindi"
-                            ? item?.SumInsured?.Hindi
-                            : " "}
+                        ? item?.SumInsured?.Marathi
+                        : " " || lang === "Hindi"
+                        ? item?.SumInsured?.Hindi
+                        : " "}
                     </td>
                     <td>
                       {lang === "English"
                         ? item?.KeyFeatures?.English
                         : " " || lang === "Marathi"
-                          ? item?.KeyFeatures?.Marathi
-                          : " " || lang === "Hindi"
-                            ? item?.KeyFeatures?.Hindi
-                            : " "}
+                        ? item?.KeyFeatures?.Marathi
+                        : " " || lang === "Hindi"
+                        ? item?.KeyFeatures?.Hindi
+                        : " "}
                     </td>
                   </tr>
                 </>
@@ -211,7 +211,8 @@ function page() {
         <video width="100%" height="100%" controls className="my-5">
           <source
             src="https://res.cloudinary.com/dj524uqwc/video/upload/v1695202353/video_is7kdg.mp4"
-            type="video/mp4" />
+            type="video/mp4"
+          />
         </video>
 
         <div className="feedback-form text-center text-xl">
@@ -237,8 +238,12 @@ function page() {
             Aditya Mane
           </Link>{" "}
           and{" "}
-          <Link href="" target="_blank" className="text-white">
-            Swapnil Devrukhar
+          <Link
+            href="https://www.linkedin.com/in/swapnil-devrukhkar-268b63158/"
+            target="_blank"
+            className="text-white"
+          >
+            Swapnil Devrukhkar
           </Link>
         </h1>
       </footer>
