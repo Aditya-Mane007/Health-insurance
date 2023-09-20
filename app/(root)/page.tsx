@@ -1,4 +1,5 @@
 "use client"
+import { useState } from "react"
 import Navbar from "@/components/Navbar"
 import Image from "next/image"
 import HeroImage from "../../public/assets/Health-insurance.jpg"
@@ -7,7 +8,6 @@ import Family from "../../public/assets/covers-extended-family.svg"
 import Data from "../../components/data.json"
 
 import Link from "next/link"
-import { useState } from "react"
 
 //bg-[#08becd]
 const page = () => {
