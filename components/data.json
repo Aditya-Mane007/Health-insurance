@@ -25,81 +25,61 @@
   },
   {
     "title": {
-      "English": "Individual Health Insurance",
-      "Marathi": "इंडिव्हिज्युअल हेल्थ इन्श्युरन्स",
-      "Hindi": "इंडिविजुअल हेल्थ इंश्योरेंस"
+      "English": "What is Ayushman Bharat yojana?",
+      "Marathi": "आयुष्मान भारत योजना काय आहे?",
+      "Hindi": "आयुष्मान भारत योजना क्या है?"
     },
     "subtitle": {
-      "English": "Under the individual health policy, the proposer and dependent family members can be covered in the plan with a separate sum insured. So, in case you are looking forward to securing yourself along with your family members where you need not share your sum insured, consider choosing an individual insurance plan. You can avail of cashless treatments at over 8000+ network hospitals with our insurance plans.",
+      "English": "The Ayushman Bharat Yojana, also known as Pradhan Mantri Jan Arogya Yojana is a healthcare scheme launched by the Government of India. It aims to provide health coverage to the economically challenged sections of the society. Launched in September 2018, it is the world's largest government-funded healthcare program.",
 
-      "Marathi": "वैयक्तिक हेल्थ पॉलिसी अंतर्गत प्रपोजर आणि अवलंबून असलेल्या कुटुंबातील सदस्यांना स्वतंत्र सम इन्श्युअर्ड सह असलेल्या प्लॅनमध्ये कव्हर केले जाऊ शकते. त्यामुळे, जर तुम्हाला तुमच्या कुटुंबातील सदस्यांसह स्वत:ला सुरक्षित करण्याची इच्छा असेल आणि तुम्ही तुमची सम इन्श्युअर्ड शेअर करण्याची आवश्यकता नसल्यास वैयक्तिक इन्श्युरन्स प्लॅन निवडण्याचा विचार करा. तुम्ही आमच्या इन्श्युरन्स प्लॅन्ससह 8000+ पेक्षा जास्त नेटवर्क हॉस्पिटल्समध्ये कॅशलेस उपचार घेऊ शकता.",
+      "Marathi": "आयुष्मान भारत योजना, ज्याला प्रधानमंत्री जन आरोग्य योजना म्हणूनही ओळखले जाते, ही भारत सरकारने सुरू केलेली आरोग्यसेवा योजना आहे. समाजातील आर्थिकदृष्ट्या अपंग घटकांना आरोग्य कव्हरेज प्रदान करण्याचे उद्दिष्ट आहे. सप्टेंबर 2018 मध्ये लाँच केलेला, हा जगातील सर्वात मोठा सरकारी-अनुदानीत आरोग्य सेवा कार्यक्रम आहे.",
 
-      "Hindi": "इंडिविजुअल हेल्थ पॉलिसी के तहत, प्रपोज़र और परिवार के आश्रित सदस्यों को अलग-अलग सम इंश्योर्ड के साथ प्लान में कवर किया जा सकता है. इसलिए, अगर आप परिवार के सदस्यों के साथ अपनी भी सुरक्षा चाहते हैं और अगर आपको अपना सम इंश्योर्ड शेयर नहीं करना है, तो आप इंडिविजुअल इंश्योरेंस प्लान चुनें. आप हमारे इंश्योरेंस प्लान के साथ 8000+ नेटवर्क हॉस्पिटल्स में कैशलेस ट्रीटमेंट का लाभ उठा सकते हैं."
-    },
-    "features": {
-      "English": [
-        "Multiple sum insured options",
-        "Cover for pre- and post-hospitalisation",
-        "Covers day-care procedures, extended family",
-        "Covers Ayurvedic and Homoeopathic treatment",
-        "Road ambulance cover",
-        "Daily cash benefit"
-      ],
-      "Marathi": [
-        "एकाधिक सम इन्श्युअर्ड पर्याय",
-        "प्री- आणि पोस्ट-हॉस्पिटलायझेशन साठी कव्हर",
-        "डे-केअर प्रक्रिया, विस्तारित कुटुंब कव्हर करते",
-        "आयुर्वेदिक आणि होमिओपॅथीक उपचाराला कव्हर करते",
-        "रोड अ‍ॅम्ब्युलन्स कव्हर",
-        "डेली कॅश लाभ"
-      ],
-      "Hindi": [
-        "एक से अधिक सम इंश्योर्ड विकल्प",
-        "हॉस्पिटलाइज़ेशन से पहले और बाद के लिए कवर",
-        "डे-केयर प्रोसीज़र, जो परिवार को कवर करता है",
-        "आयुर्वेदिक और होमियोपैथिक उपचार को कवर करता है",
-        "रोड एम्बुलेंस कवर",
-        "डेली कैश बेनिफिट"
-      ]
+      "Hindi": "आयुष्मान भारत योजना, जिसे प्रधान मंत्री जन आरोग्य योजना के रूप में भी जाना जाता है, भारत सरकार द्वारा शुरू की गई एक स्वास्थ्य सेवा योजना है। इसका उद्देश्य समाज के आर्थिक रूप से अक्षम वर्गों को स्वास्थ्य कवरेज प्रदान करना है। सितंबर 2018 में लॉन्च किया गया, यह दुनिया का सबसे बड़ा सरकारी वित्त पोषित स्वास्थ्य सेवा कार्यक्रम है।"
     }
   },
   {
     "title": {
-      "English": "Family Health Insurance",
-      "Marathi": "फॅमिली हेल्थ इन्श्युरन्स",
-      "Hindi": "फैमिली हेल्थ इंश्योरेंस"
+      "English": "Documents required for ABHA card ?",
+      "Marathi": "ABHA कार्डसाठी आवश्यक कागदपत्रे ?",
+      "Hindi": "ABHA कार्ड के लिए आवश्यक दस्तावेज ?"
     },
     "subtitle": {
-      "English": "Medical expenses do not come with any warning. Hence, it becomes important to have a robust health insurance policy as a part of your portfolio. The family floater policy permits you to include multiple family members within the same insurance plan for a single premium payment. Under this type of policy, the sum insured is shared by all the members covered in the plan, thereby secure the family at a feasible insurance premium.",
+      "English": "Below is a list of all the documents you’ll need to apply for an Ayushman Bharat Card 2023 and use the Health Scheme. You need both a digital and physical copy of each of these documents in order to complete the registration procedure.",
 
-      "Marathi": "वैद्यकीय खर्च कोणत्याही पूर्वसूचनेशिवाय येत नाही.. म्हणून, तुमच्या पोर्टफोलिओचा भाग म्हणून परिपूर्ण हेल्थ इन्श्युरन्स पॉलिसी असणे महत्त्वाचे ठरते.. फॅमिली फ्लोटर पॉलिसी तुम्हाला सिंगल प्रीमियम पेमेंटसाठी समान इन्श्युरन्स प्लॅनमध्ये एकाधिक कुटुंबातील सदस्यांचा समावेश करण्याची परवानगी देते. या प्रकारच्या पॉलिसीअंतर्गत प्लॅनमध्ये कव्हर केलेल्या सर्व सदस्यांद्वारे सम इन्श्युअर्ड सामायिक केले जाते. ज्याद्वारे कुटुंब सुयोग्य इन्श्युरन्स प्रीमियमवर सुरक्षित केले जातात.",
+      "Marathi": "आयुष्मान भारत कार्ड 2023 साठी अर्ज करण्यासाठी आणि आरोग्य योजना वापरण्यासाठी तुम्हाला आवश्यक असलेल्या सर्व कागदपत्रांची यादी खाली दिली आहे. नोंदणी प्रक्रिया पूर्ण करण्यासाठी तुम्हाला या प्रत्येक दस्तऐवजाची डिजिटल आणि भौतिक प्रत आवश्यक आहे.",
 
-      "Hindi": "मेडिकल समस्या हमेशा अप्रत्याशित रूप से सामने आती है. इसलिए, अपने पोर्टफोलियो के हिस्से के रूप में बेहतर हेल्थ इंश्योरेंस पॉलिसी लेना आवश्यक हो जाता है. फैमिली फ्लोटर पॉलिसी में आप एक ही प्रीमियम का भुगतान करके एक ही इंश्योरेंस प्लान के भीतर परिवार के कई सदस्यों को शामिल कर सकते हैं. इस प्रकार की पॉलिसी के तहत, प्लान में कवर किए गए सभी सदस्यों द्वारा सम इंश्योर्ड शेयर किया जाता है, जिससे परिवार को एक किफायती इंश्योरेंस प्रीमियम पर सुरक्षित किया जा सकता है."
+      "Hindi": "नीचे उन सभी दस्तावेजों की सूची दी गई है जिनकी आपको आयुष्मान भारत कार्ड 2023 के लिए आवेदन करने और स्वास्थ्य योजना का उपयोग करने के लिए आवश्यकता होगी। पंजीकरण प्रक्रिया को पूरा करने के लिए आपको इनमें से प्रत्येक दस्तावेज़ की डिजिटल और भौतिक दोनों प्रतियों की आवश्यकता होगी।"
     },
     "features": {
       "English": [
-        "Cover for Dependent family members",
-        "CDay-care procedures cover",
-        "Pre- and post-hospitalisation",
-        "Convalescence benefit",
-        "Bariatric surgery cover",
-        "Sum insured reinstatement"
+        "Aadhar Card",
+        "PAN Card",
+        "Ration Card",
+        "Voter ID Card",
+        "SC Certificate",
+        "ST Certificate",
+        "Income Certificate",
+        "Mobile Number"
       ],
       "Marathi": [
-        "अवलंबून असलेल्या कुटुंबातील सदस्यांसाठी कव्हर",
-        "डे-केअर प्रक्रिया कव्हर",
-        "प्री- आणि पोस्ट-हॉस्पिटलायझेशन",
-        "कॉन्व्हलेसन्स लाभ",
-        "बॅरिएट्रिक सर्जरी कव्हर",
-        "सम इन्श्युअर्ड रिस्टोरेशन"
+        "आधार कार्ड",
+        "पॅन कार्ड",
+        "रेशन कार्ड",
+        "मतदार ओळखपत्र",
+        "SC प्रमाणपत्र",
+        "एसटी प्रमाणपत्र",
+        "उत्पन्न प्रमाणपत्र",
+        "मोबाईल नंबर"
       ],
       "Hindi": [
-        "आश्रित परिवार के सदस्यों के लिए कवर",
-        "डे-केयर प्रोसीजर कवर",
-        "हॉस्पिटलाइज़ेशन से पहले और बाद",
-        "कॉन्वॉलसेंस बेनिफिट",
-        "बेरिएट्रिक सर्जरी कवर",
-        "सम इंश्योर्ड रीइंस्टेटमेंट"
+        "आधार कार्ड",
+        "पैन कार्ड",
+        "राशन पत्रिका",
+        "वोटर आई कार्ड",
+        "अनुसूचित जाति प्रमाण पत्र",
+        "एसटी प्रमाणपत्र",
+        "आय प्रमाण पत्र",
+        "मोबाइल नंबर"
       ]
     }
   },

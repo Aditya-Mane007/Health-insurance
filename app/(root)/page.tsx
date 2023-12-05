@@ -7,6 +7,8 @@ import Individual from "../../public/assets/individual-benefits-health-check-up.
 import Family from "../../public/assets/covers-extended-family.svg"
 import Data from "../../components/data.json"
 import Link from "next/link"
+import AyushMan from "../AyushMan.jpeg"
+import ABHA from "../ABHA-removebg-preview.png"
 
 //bg-[#08becd]
 function page() {
@@ -74,36 +76,10 @@ function page() {
               ? data[1]?.subtitle?.Hindi
               : ""}
           </div>
-          <div className="p-3">
-            <div className="title text-white">
-              {lang == "English"
-                ? "Some key features of Individual Health Insurance"
-                : "" || lang == "Marathi"
-                ? "काही प्रमुख वैशिष्ट्ये इंडिव्हिज्युअल हेल्थ इन्श्युरन्स"
-                : "" || lang == "Hindi"
-                ? "इसकी कुछ प्रमुख विशेषताएं जानें इंडिविजुअल हेल्थ इंश्योरेंस"
-                : ""}
-            </div>
-            <ul className="list-disc text-white mx-3 w-full">
-              {lang == "English"
-                ? data[1].features?.English.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))
-                : "" || lang == "Marathi"
-                ? data[1].features?.Marathi.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))
-                : "" || lang == "Hindi"
-                ? data[1].features?.Hindi.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))
-                : ""}
-            </ul>
-          </div>
         </div>
         <div className="individual-health bg-[#08Becd] rounded-2xl  p-3 my-5 overflow-hidden mx-2">
-          <div className="image flex justify-center">
-            <Image src={Family} alt="Individual Insurance" />
+          <div className="image flex  justify-center w-20 h-20 mx-auto">
+            <Image src={ABHA} alt="Individual Insurance" />
           </div>
           <div className="title text-white text-xl text-center">
             {lang == "English"
@@ -124,15 +100,6 @@ function page() {
               : ""}
           </div>
           <div className="p-3">
-            <div className="title text-white">
-              {lang == "English"
-                ? "Some key features of Individual Health Insurance"
-                : "" || lang == "Marathi"
-                ? "काही प्रमुख वैशिष्ट्ये इंडिव्हिज्युअल हेल्थ इन्श्युरन्स"
-                : "" || lang == "Hindi"
-                ? "इसकी कुछ प्रमुख विशेषताएं जानें इंडिविजुअल हेल्थ इंश्योरेंस"
-                : ""}
-            </div>
             <ul className="list-disc text-white mx-3 w-full">
               <ul className="list-disc text-white mx-3 w-full">
                 {lang == "English"
@@ -208,26 +175,17 @@ function page() {
             </tbody>
           </table>
         </div>
-        <video width="100%" height="100%" controls className="my-5">
-          <source
-            src="https://res.cloudinary.com/dj524uqwc/video/upload/v1695202353/video_is7kdg.mp4"
-            type="video/mp4"
+        <div className="w-full h-40">
+          <Image
+            src={AyushMan}
+            width={100}
+            height={100}
+            alt="banner"
+            className="w-full h-full"
           />
-        </video>
-
-        <div className="feedback-form text-center text-xl">
-          Kindly fill the{" "}
-          <span className="text-[#088ecd] underline">
-            <Link
-              href="https://surveyheart.com/form/650aacbfa58d9d52e2c2cd7e"
-              target="_blank"
-            >
-              feedback form
-            </Link>
-          </span>
         </div>
       </main>
-      <footer className="w-auto h-auto bg-[#08becd] flex items-center justify-center">
+      <footer className="w-auto h-auto bg-[#08becd] flex items-center justify-center p-2">
         <h1 className="my-5">
           Developed by{" "}
           <Link
