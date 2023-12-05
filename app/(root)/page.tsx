@@ -178,8 +178,6 @@ function page() {
         <div className="w-full h-40">
           <Image
             src={AyushMan}
-            width={100}
-            height={100}
             alt="banner"
             className="w-full h-full"
           />
